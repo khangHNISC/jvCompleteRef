@@ -35,4 +35,9 @@ class BitwiseOpsTest {
         //divide by 2 and discard remainder
         assertEquals(35 >> 2, 8);
     }
+
+    @Test
+    void unsignedRightShift() {
+         assertEquals(-1 >>> 24, 255);
+    }
 }
