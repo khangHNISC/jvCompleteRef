@@ -9,7 +9,7 @@ public class ABC {
 
     public static void main(String[] args) {
         DEF e = new DEF();
-        //int i = e.a;
+        //int i = e.a; error
         int i = e.b;
     }
 }
