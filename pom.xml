@@ -11,6 +11,7 @@
     <modules>
         <module>overview</module>
         <module>inheritance</module>
+        <module>thread</module>
     </modules>
 
     <properties>
