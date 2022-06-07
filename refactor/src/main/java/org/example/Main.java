@@ -9,12 +9,15 @@ import java.util.Map;
  * Created by khangld5 on $MONTH_NAME_SHORT $DAY, $YEAR
  */
 public class Main {
-    public static void main(String[] args) {
-        Map<String, Play> plays = new HashMap<>();
+    private static final Map<String, Play> plays = new HashMap<>();
+
+    static {
         plays.put("hamlet", new Play("Hamlet", "tragedy"));
         plays.put("as-like", new Play("As You Like It", "comedy"));
         plays.put("othello", new Play("Othello", "tragedy"));
+    }
 
+    public static void main(String[] args) {i
         List<Performance> perfs = new ArrayList<>();
         perfs.add(new Performance("hamlet", 55));
         perfs.add(new Performance("as-like", 35));
