@@ -12,6 +12,7 @@
         <module>overview</module>
         <module>inheritance</module>
         <module>thread</module>
+        <module>refactor</module>
     </modules>
 
     <properties>
